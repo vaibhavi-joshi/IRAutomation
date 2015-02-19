@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4073ACB1A949E600036EABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4073ACA1A949E600036EABF /* main.m */; };
+		A4073ACE1A949E600036EABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4073ACD1A949E600036EABF /* AppDelegate.m */; };
+		A4073AD11A949E600036EABF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4073AD01A949E600036EABF /* ViewController.m */; };
+		A4073AD41A949E600036EABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4073AD21A949E600036EABF /* Main.storyboard */; };
+		A4073AD91A949E600036EABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4073AD71A949E600036EABF /* LaunchScreen.xib */; };
+		A4073AE51A949E600036EABF /* IRAutomationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4073AE41A949E600036EABF /* IRAutomationTests.m */; };
+		A4073AFA1A949F0C0036EABF /* 0-smart-remote-splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4073AF01A949F0C0036EABF /* 0-smart-remote-splash.jpg */; };
+		A4073B031A949F0C0036EABF /* smart-remote-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = A4073AF91A949F0C0036EABF /* smart-remote-1024.png */; };
+		A4073B311A94AF1E0036EABF /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4073B301A94AF1E0036EABF /* Images-2.xcassets */; };
+		A4073B331A94B0380036EABF /* smart-remote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4073B321A94B0380036EABF /* smart-remote@2x.png */; };
+		A4073B371A94B2BE0036EABF /* smart-remote-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4073B361A94B2BE0036EABF /* smart-remote-@3x.png */; };
+		A4073B3B1A94B67E0036EABF /* smart-remote-splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4073B3A1A94B67E0036EABF /* smart-remote-splash@2x.png */; };
+		A4073B3D1A94BFC90036EABF /* smart-remote-splash@retina.png in Resources */ = {isa = PBXBuildFile; fileRef = A4073B3C1A94BFC90036EABF /* smart-remote-splash@retina.png */; };
+		A4073B3F1A94C0850036EABF /* smart-remote-splash@Retina(4.7).png in Resources */ = {isa = PBXBuildFile; fileRef = A4073B3E1A94C0850036EABF /* smart-remote-splash@Retina(4.7).png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4073ADF1A949E600036EABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4073ABD1A949E600036EABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4073AC41A949E600036EABF;
+			remoteInfo = IRAutomation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4073AC51A949E600036EABF /* IRAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4073AC91A949E600036EABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4073ACA1A949E600036EABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4073ACC1A949E600036EABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4073ACD1A949E600036EABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4073ACF1A949E600036EABF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4073AD01A949E600036EABF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4073AD31A949E600036EABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4073AD81A949E600036EABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A4073ADE1A949E600036EABF /* IRAutomationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRAutomationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4073AE31A949E600036EABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4073AE41A949E600036EABF /* IRAutomationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAutomationTests.m; sourceTree = "<group>"; };
+		A4073AF01A949F0C0036EABF /* 0-smart-remote-splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "0-smart-remote-splash.jpg"; path = "UItrainee/0-smart-remote-splash.jpg"; sourceTree = "<group>"; };
+		A4073AF91A949F0C0036EABF /* smart-remote-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smart-remote-1024.png"; path = "UItrainee/smart-remote-1024.png"; sourceTree = "<group>"; };
+		A4073B301A94AF1E0036EABF /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		A4073B321A94B0380036EABF /* smart-remote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smart-remote@2x.png"; sourceTree = "<group>"; };
+		A4073B361A94B2BE0036EABF /* smart-remote-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smart-remote-@3x.png"; sourceTree = "<group>"; };
+		A4073B3A1A94B67E0036EABF /* smart-remote-splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smart-remote-splash@2x.png"; sourceTree = "<group>"; };
+		A4073B3C1A94BFC90036EABF /* smart-remote-splash@retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smart-remote-splash@retina.png"; sourceTree = "<group>"; };
+		A4073B3E1A94C0850036EABF /* smart-remote-splash@Retina(4.7).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smart-remote-splash@Retina(4.7).png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4073AC21A949E600036EABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4073ADB1A949E600036EABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4073ABC1A949E600036EABF = {
+			isa = PBXGroup;
+			children = (
+				A4073AC71A949E600036EABF /* IRAutomation */,
+				A4073AE11A949E600036EABF /* IRAutomationTests */,
+				A4073AC61A949E600036EABF /* Products */,
+				A4073B2F1A94AB7A0036EABF /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A4073AC61A949E600036EABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4073AC51A949E600036EABF /* IRAutomation.app */,
+				A4073ADE1A949E600036EABF /* IRAutomationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4073AC71A949E600036EABF /* IRAutomation */ = {
+			isa = PBXGroup;
+			children = (
+				A4073B1D1A94A87E0036EABF /* RemoteListing */,
+				A4073B1C1A94A8720036EABF /* SignUp */,
+				A4073B1B1A94A8620036EABF /* Login */,
+				A4073ACC1A949E600036EABF /* AppDelegate.h */,
+				A4073ACD1A949E600036EABF /* AppDelegate.m */,
+				A4073B301A94AF1E0036EABF /* Images-2.xcassets */,
+				A4073AC81A949E600036EABF /* Supporting Files */,
+			);
+			path = IRAutomation;
+			sourceTree = "<group>";
+		};
+		A4073AC81A949E600036EABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4073AC91A949E600036EABF /* Info.plist */,
+				A4073ACA1A949E600036EABF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4073AE11A949E600036EABF /* IRAutomationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4073AE41A949E600036EABF /* IRAutomationTests.m */,
+				A4073AE21A949E600036EABF /* Supporting Files */,
+			);
+			path = IRAutomationTests;
+			sourceTree = "<group>";
+		};
+		A4073AE21A949E600036EABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4073AE31A949E600036EABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4073AEE1A949EFB0036EABF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4073B3E1A94C0850036EABF /* smart-remote-splash@Retina(4.7).png */,
+				A4073B3C1A94BFC90036EABF /* smart-remote-splash@retina.png */,
+				A4073B3A1A94B67E0036EABF /* smart-remote-splash@2x.png */,
+				A4073B361A94B2BE0036EABF /* smart-remote-@3x.png */,
+				A4073B321A94B0380036EABF /* smart-remote@2x.png */,
+				A4073AF01A949F0C0036EABF /* 0-smart-remote-splash.jpg */,
+				A4073AF91A949F0C0036EABF /* smart-remote-1024.png */,
+			);
+			name = Images;
+			path = IRAutomation;
+			sourceTree = "<group>";
+		};
+		A4073B1B1A94A8620036EABF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4073B2D1A94AAE10036EABF /* Images */,
+				A4073B211A94A8B90036EABF /* Controller */,
+				A4073B201A94A8B30036EABF /* View */,
+				A4073B1F1A94A8AA0036EABF /* Model */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		A4073B1C1A94A8720036EABF /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A4073B2E1A94AAFE0036EABF /* Images */,
+				A4073B241A94A8D30036EABF /* Controller */,
+				A4073B231A94A8CE0036EABF /* View */,
+				A4073B221A94A8C80036EABF /* Model */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		A4073B1D1A94A87E0036EABF /* RemoteListing */ = {
+			isa = PBXGroup;
+			children = (
+				A4073B2B1A94AA3A0036EABF /* Images */,
+				A4073B271A94A8F60036EABF /* Controller */,
+				A4073B261A94A8EE0036EABF /* View */,
+				A4073B251A94A8E80036EABF /* Model */,
+				A4073B1E1A94A88B0036EABF /* ACList */,
+			);
+			name = RemoteListing;
+			sourceTree = "<group>";
+		};
+		A4073B1E1A94A88B0036EABF /* ACList */ = {
+			isa = PBXGroup;
+			children = (
+				A4073B2C1A94AA480036EABF /* Images */,
+				A4073B2A1A94A90E0036EABF /* Controller */,
+				A4073B291A94A9090036EABF /* View */,
+				A4073B281A94A9030036EABF /* Model */,
+			);
+			name = ACList;
+			sourceTree = "<group>";
+		};
+		A4073B1F1A94A8AA0036EABF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4073B201A94A8B30036EABF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4073AD21A949E600036EABF /* Main.storyboard */,
+				A4073AD71A949E600036EABF /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4073B211A94A8B90036EABF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4073ACF1A949E600036EABF /* ViewController.h */,
+				A4073AD01A949E600036EABF /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4073B221A94A8C80036EABF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4073B231A94A8CE0036EABF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4073B241A94A8D30036EABF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4073B251A94A8E80036EABF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4073B261A94A8EE0036EABF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4073B271A94A8F60036EABF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4073B281A94A9030036EABF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4073B291A94A9090036EABF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4073B2A1A94A90E0036EABF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4073B2B1A94AA3A0036EABF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A4073B2C1A94AA480036EABF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A4073B2D1A94AAE10036EABF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A4073B2E1A94AAFE0036EABF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A4073B2F1A94AB7A0036EABF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4073AEE1A949EFB0036EABF /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4073AC41A949E600036EABF /* IRAutomation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4073AE81A949E600036EABF /* Build configuration list for PBXNativeTarget "IRAutomation" */;
+			buildPhases = (
+				A4073AC11A949E600036EABF /* Sources */,
+				A4073AC21A949E600036EABF /* Frameworks */,
+				A4073AC31A949E600036EABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRAutomation;
+			productName = IRAutomation;
+			productReference = A4073AC51A949E600036EABF /* IRAutomation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4073ADD1A949E600036EABF /* IRAutomationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4073AEB1A949E600036EABF /* Build configuration list for PBXNativeTarget "IRAutomationTests" */;
+			buildPhases = (
+				A4073ADA1A949E600036EABF /* Sources */,
+				A4073ADB1A949E600036EABF /* Frameworks */,
+				A4073ADC1A949E600036EABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4073AE01A949E600036EABF /* PBXTargetDependency */,
+			);
+			name = IRAutomationTests;
+			productName = IRAutomationTests;
+			productReference = A4073ADE1A949E600036EABF /* IRAutomationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4073ABD1A949E600036EABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IR;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "bharat jain";
+				TargetAttributes = {
+					A4073AC41A949E600036EABF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A4073ADD1A949E600036EABF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A4073AC41A949E600036EABF;
+					};
+				};
+			};
+			buildConfigurationList = A4073AC01A949E600036EABF /* Build configuration list for PBXProject "IRAutomation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4073ABC1A949E600036EABF;
+			productRefGroup = A4073AC61A949E600036EABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4073AC41A949E600036EABF /* IRAutomation */,
+				A4073ADD1A949E600036EABF /* IRAutomationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4073AC31A949E600036EABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4073B3D1A94BFC90036EABF /* smart-remote-splash@retina.png in Resources */,
+				A4073B311A94AF1E0036EABF /* Images-2.xcassets in Resources */,
+				A4073AD41A949E600036EABF /* Main.storyboard in Resources */,
+				A4073B3B1A94B67E0036EABF /* smart-remote-splash@2x.png in Resources */,
+				A4073AFA1A949F0C0036EABF /* 0-smart-remote-splash.jpg in Resources */,
+				A4073B331A94B0380036EABF /* smart-remote@2x.png in Resources */,
+				A4073AD91A949E600036EABF /* LaunchScreen.xib in Resources */,
+				A4073B371A94B2BE0036EABF /* smart-remote-@3x.png in Resources */,
+				A4073B3F1A94C0850036EABF /* smart-remote-splash@Retina(4.7).png in Resources */,
+				A4073B031A949F0C0036EABF /* smart-remote-1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4073ADC1A949E600036EABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4073AC11A949E600036EABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4073AD11A949E600036EABF /* ViewController.m in Sources */,
+				A4073ACE1A949E600036EABF /* AppDelegate.m in Sources */,
+				A4073ACB1A949E600036EABF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4073ADA1A949E600036EABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4073AE51A949E600036EABF /* IRAutomationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4073AE01A949E600036EABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4073AC41A949E600036EABF /* IRAutomation */;
+			targetProxy = A4073ADF1A949E600036EABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4073AD21A949E600036EABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4073AD31A949E600036EABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4073AD71A949E600036EABF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4073AD81A949E600036EABF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4073AE61A949E600036EABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4073AE71A949E600036EABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4073AE91A949E600036EABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = IRAutomation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4073AEA1A949E600036EABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = IRAutomation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4073AEC1A949E600036EABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IRAutomationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRAutomation.app/IRAutomation";
+			};
+			name = Debug;
+		};
+		A4073AED1A949E600036EABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IRAutomationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRAutomation.app/IRAutomation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4073AC01A949E600036EABF /* Build configuration list for PBXProject "IRAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4073AE61A949E600036EABF /* Debug */,
+				A4073AE71A949E600036EABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4073AE81A949E600036EABF /* Build configuration list for PBXNativeTarget "IRAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4073AE91A949E600036EABF /* Debug */,
+				A4073AEA1A949E600036EABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4073AEB1A949E600036EABF /* Build configuration list for PBXNativeTarget "IRAutomationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4073AEC1A949E600036EABF /* Debug */,
+				A4073AED1A949E600036EABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4073ABD1A949E600036EABF /* Project object */;
+}
